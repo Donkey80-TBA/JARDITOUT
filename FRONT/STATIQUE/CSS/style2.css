@@ -1,0 +1,72 @@
+body { 
+    width: 1000px; 
+    margin: 0 auto;
+    padding: 0;
+}
+header { 
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto;
+    padding: 0;
+}
+/* mettre tout a la mm taille */
+header div{
+    height: 50px;
+}
+header div p{
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+}
+#logo{
+    float: left;
+}
+#texte{
+    font-size: xx-large;
+    text-align: center;
+}
+nav{
+    display: block;
+    clear: both;
+}
+ul{
+    background-color: black;
+    color: white;
+    display: flex;
+    border: 20px solid black;
+    padding: reverse;    
+}
+ul li{
+    list-style-type: none;
+}
+ul li a {
+    color: white;
+    padding: 10px;
+}
+
+#promotion {
+    width: 100%;
+    display: block;
+    margin-top: -10px;
+}
+
+#colonnedroite{
+    
+    right: 100px;
+    top: 555px;
+    width: 40px;
+    height: 440px;
+    background-color:grey;
+
+}
+#colonnegauche {
+    width: 60%;
+   display: inline-block;
+   
+}
+footer { 
+    width: 100%;
+    background-color:black;
+    margin: -15px;
+     
+}

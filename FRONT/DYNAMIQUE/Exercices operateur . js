@@ -1,0 +1,15 @@
+let a = " 100 " 
+let b =  100 ;  
+let c =  1.00 ; 
+let d = " true " 
+
+window.alert ( " Ceci est une chaine de caracteres " + a )
+
+b = b -- 
+alert ( b )
+
+c = a + c 
+alert ( c )
+
+d = ! d 
+alert ( d )
